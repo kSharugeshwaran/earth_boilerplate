@@ -7,11 +7,9 @@ var savetest=document.getElementById("save")
 var frame=document.getElementById("frame")
 
 consumptionVar.onclick=()=>{
-
-    console.log("aman")
     //background
     bodyvar.style.background="url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/earth/food-wastage-bg%5B1%5D.png')"
-    bodyvar.style.backgroundSize=" 100% 100% "
+    bodyvar.style.backgroundSize="100% 100%"
     frame.src="https://www.theworldcounts.com/embed/challenges/107?background_color=transparent&color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=20"
     savetest.textContent=" Do your bit! Shop only what you need,eat only what you need and always save the leftovers"
     consumptionVar.style.background="#27ae70"
@@ -33,7 +31,7 @@ resourcesvar.onclick=()=>{
 }
 climatevar.onclick=()=>{
     bodyvar.style.background="url('https://kq-storage.s3.ap-south-1.amazonaws.com/Github/earth/climate-change-bg%5B1%5D.png')"
-    bodyvar.style.backgroundsize=" 100% 100% "
+    bodyvar.style.backgroundsize="100% 100%"
     frame.src="https://www.theworldcounts.com/embed/challenges/23?background_color=transparent&color=white&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=20"
     savetest.textContent="Do your bit! Save trees, use renewable energy sources and prefer to travel green"
     climate.style.background="blue"
